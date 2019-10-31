@@ -100,6 +100,58 @@ void main()
 
 **注意**:需要和普通段落之间存在空行。
 
+还可以使用如下方式
+
+\`\`\`
+void main()    
+{    
+    printf("Hello, Markdown.");    
+}
+\`\`\`
+效果如下：
+
+```
+void main()    
+{    
+    printf("Hello, Markdown.");    
+}
+```
+
+或者再加上代码类型：
+
+\`\`\`javascript  
+function test()    
+{    
+    printf("Hello, Markdown.");    
+}
+\`\`\`
+
+效果如下：
+
+```javascript
+function test()    
+{
+    printf("Hello, Markdown.");    
+}
+```
+
+
+\`\`\`c  
+void main()    
+{    
+    printf("Hello, Markdown.");    
+}
+\`\`\`
+
+```c
+void main()    
+{    
+    printf("Hello, Markdown.");    
+}
+```
+
+
+
 #### 4.5 强调
 在强调内容两侧分别加上`*`或者`_`，如：
 > \*斜体\*，\_斜体\_    
